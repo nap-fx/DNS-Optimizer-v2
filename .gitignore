@@ -1,0 +1,13 @@
+# Logs & runtime states
+*.log
+.last_run
+*.tmp
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VS Code / IDE configs
+.vscode/
+.idea/

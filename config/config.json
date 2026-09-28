@@ -1,0 +1,28 @@
+{
+  "DefaultProfile": "Speed",
+  "EnableToastNotifications": false,
+  "HysteresisDeltaMs": 10.0,
+  "HysteresisRatio": 0.85,
+  "DebounceSeconds": 45,
+  "TestDomains": [
+    "google.com",
+    "cloudflare.com"
+  ],
+  "TimeoutMs": 1200,
+  "AutoEnableWindows11DoH": true,
+  "CustomResolvers": [
+    {
+      "Name": "Example Custom / Pi-hole",
+      "IPv4": [
+        "192.168.1.100"
+      ],
+      "IPv6": [],
+      "DoHTemplate": "",
+      "Profiles": [
+        "Custom",
+        "All"
+      ],
+      "Enabled": false
+    }
+  ]
+}
