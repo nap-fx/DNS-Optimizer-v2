@@ -8,8 +8,8 @@
 
 ## 📁 Repository Structure
 
-`
-DNS-Optimizer/model-v2/
+```text
+DNS-Optimizer-v2/
 ├── bin/                          # CLI executable wrappers for PATH
 │   ├── dns-optimizer.cmd         # Primary CLI launcher
 │   └── autodns.cmd               # Short alias launcher
@@ -28,7 +28,7 @@ DNS-Optimizer/model-v2/
 ├── LICENSE                       # MIT License
 ├── README.md                     # Project documentation
 └── Uninstall.bat                 # 1-Click admin uninstaller
-`
+```
 
 ## 🚀 What's New in Model v2
 
@@ -60,21 +60,21 @@ DNS-Optimizer/model-v2/
 
 ## 🌐 Directory Independence & Global CLI Access
 
-When installed via Install.bat:
-1. **Permanent System Location:** Files are safely deployed to C:\ProgramData\AutoDnsOptimizer\. You can move, rename, or delete the original cloned folder without breaking scheduled background tasks.
-2. **Global CMD / Terminal Access:** AutoDnsOptimizer is added to your Windows system PATH. You can run it from **any folder** in Command Prompt or PowerShell:
-   `cmd
+When installed via `Install.bat`:
+1. **Permanent System Location:** Files are safely deployed to `C:\ProgramData\AutoDnsOptimizer\`. You can move, rename, or delete the original cloned folder without breaking scheduled background tasks.
+2. **Global CMD / Terminal Access:** `AutoDnsOptimizer` is added to your Windows system PATH. You can run it from **any folder** in Command Prompt or PowerShell:
+   ```cmd
    dns-optimizer -BenchmarkOnly
    autodns
-   `
+   ```
 
 ## 🚀 Quick Start
 
 ### 1-Click Installation (Recommended)
 1. Clone or download this directory:
    ```cmd
-   git clone https://github.com/your-username/DNS-Optimizer.git
-   cd DNS-Optimizer/model-v2
+   git clone https://github.com/nap-fx/DNS-Optimizer-v2.git
+   cd DNS-Optimizer-v2
    ```
 2. Double-click or right-click **`Install.bat`** and choose **Run as administrator**.
 3. Done! The optimizer will benchmark and apply the optimal DNS immediately, then continue running silently on startup, every 30 minutes, and whenever you change networks.
